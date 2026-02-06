@@ -10,7 +10,7 @@ app.use(cors());
 
 const PORT = process.env.PORT || 5000;
 const JWT_SECRET = "winevill_secret_key";
-const MONGO_URI = "YOUR_MONGO_URI_HERE"; // <-- Replace with your MongoDB connection string
+const MONGO_URI = "mongodb+srv://jamessabblah123_db_user:<db_password>@learn-m0.28aoya8.mongodb.net/? appName=learn-m0"; // <-- Replace with your MongoDB connection string
 
 mongoose.connect(MONGO_URI)
   .then(() => console.log("MongoDB Connected"))
